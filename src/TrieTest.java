@@ -1,23 +1,19 @@
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+import java.util.*;
 import static org.junit.Assert.*;
 
 public class TrieTest {
 
     private List<String> documents() {
-        return new ArrayList<>(
-                Arrays.asList(
+        return new ArrayList<>(Arrays.asList(
                         "hello",
                         "high",
                         "seattle",
                         "seatac",
                         "see",
                         "hollow",
-                        "how"));
+                        "how")
+        );
     }
 
     @Test

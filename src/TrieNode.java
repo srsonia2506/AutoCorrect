@@ -5,8 +5,7 @@ public class TrieNode {
     HashMap<Character, TrieNode> children = new HashMap<>();
     boolean isLast;
 
-    public TrieNode(){
-    }
+    public TrieNode(){}
 
     public TrieNode(char c){
         ch = c;
